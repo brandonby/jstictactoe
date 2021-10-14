@@ -63,9 +63,15 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 
-ul li {
+/* ul li {
   font-size: 54px;
   text-transform: uppercase;
   display: inline-block;
-  /* background-color: red; */
+} */
+
+nav ul li{
+  display: inline-block;
+  background-color: rgb(134, 132, 132);
+  width: 300px;
+  justify-content: center;
 }
