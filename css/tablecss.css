@@ -1,0 +1,23 @@
+:root {
+    --purple: #3e0249;
+}
+
+main {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+}
+
+table, th, td {
+    color: none;
+    border-collapse: collapse;
+    border: 1px solid var(--purple);
+}
+
+th, td {
+    padding: 5px;
+}
